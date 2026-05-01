@@ -277,7 +277,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "",
+        "url": "http://scraper:8000/scrape",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "{\n  \"site\": \"linkedin\",\n  \"query\": \"Graduate Technology\",\n  \"location\": \"United Kingdom\",\n  \"limit\": 10\n}",
